@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-
 function mergeSort(arr) {
   let l = arr.length;
   let mid = Math.floor(l / 2);
@@ -27,11 +26,11 @@ function mergeSort(arr) {
   }
 }
 
-const arr = [3, 2, 1, 13, 8, 5, 0, 1];
-const arrSorted = mergeSort(arr); // expected output [0, 1, 1, 2, 3, 5, 8, 13]
+const arr = [3, 2, 1, 13, 8, 5, 0, 1, 99];
+const arrSorted = mergeSort(arr); // expected output [0, 1, 1, 2, 3, 5, 8, 13, 99]
 console.log(arrSorted);
 
-//trying optimization
+//I'm trying optimization but can't make it for the moment
 
 // function mergeSort2(arr, low = 0, l = arr.length) {
 //   let mid = Math.floor(l / 2);
